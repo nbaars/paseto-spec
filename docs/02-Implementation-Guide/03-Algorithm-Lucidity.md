@@ -56,7 +56,7 @@ class SymmetricKey extends Key {
     }
 }
 class AsymmetricSecretKey extends Key {
-    public SymmetricKey(byte[] keyMaterial, Version version) {
+    public AsymmetricSecretKey(byte[] keyMaterial, Version version) {
         super(keyMaterial, version);
     }
     
@@ -65,7 +65,7 @@ class AsymmetricSecretKey extends Key {
     }
 }
 class AsymmetricPublicKey extends Key {
-    public SymmetricKey(byte[] keyMaterial, Version version) {
+    public AsymmetricPublicKey(byte[] keyMaterial, Version version) {
         super(keyMaterial, version);
     }
     
